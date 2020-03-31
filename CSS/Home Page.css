@@ -1,0 +1,127 @@
+/* total body */
+body{
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #F4F4F4;
+}
+
+/* Respnsive section, Making in the middle */
+.container {
+  width:80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* main header*/
+header{
+  /* save image to path */
+  background-image: url(https://www.i4biz.com/wp-content/uploads/2017/06/Oneweb2.jpg);
+  background-size: cover;
+  background-blend-mode: lighten;
+  color: #ffffff;
+  padding-top: 10%;
+  min-height: 30%;
+}
+
+/* nav tab */
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/* oderred list */
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* list in the header */
+header li{
+  float: inline;
+  display: inline;
+  /* top right bottom left*/
+  padding: 0px 20px 0px 20px;
+}
+
+header h1{
+
+  position: relative;
+  bottom: 76px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 65px;
+  padding-bottom: 20px;
+}
+
+/* the equation */
+#branding p{
+  position: relative;
+  bottom: 75px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+  text-transform: full-width;
+}
+
+/* Offical text*/
+#showcase .container{
+  text-align: center;
+}
+
+nav{
+  position: fixed; top: 20px; left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* newsletter */
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form{
+  float: right;
+  margin-top: 25px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 5px;
+  width: 250px;
+
+}
+
+#newsletter h1{
+  text-align: center;
+}
+
+/* boxes */
+
+#boxes .box{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+#boxes .box img{
+  height: 155px;
+  width: 228px;
+}
+
+/* footer */
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+}
+
